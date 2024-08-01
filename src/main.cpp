@@ -1,5 +1,6 @@
 #include <SPI.h>
 #include <TFT_eSPI.h>  // Biblioteca específica do hardware
+
 #define SCREEN_WIDTH 240
 #define SCREEN_HEIGHT 240
 
@@ -80,9 +81,5 @@ void setup(void) {
 }
 
 void loop() {
-  // Imprime mensagem na serial
-  Serial.println("funcionando");
-  
-  // Pequeno delay para evitar uma impressão muito rápida
-  delay(2000);
+ 
 }
