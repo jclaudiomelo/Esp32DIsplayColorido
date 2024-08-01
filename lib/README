@@ -1,47 +1,13 @@
+# Setup Instructions
 
-This directory is intended for project specific (private) libraries.
-PlatformIO will compile them to static libraries and link into executable file.
+To set up your project correctly, you need to place the files from this folder into the `TFT_eSPI` library folder.
 
-The source code of each library should be placed in an own separate directory
-("lib/your_library_name/[here are source files]").
+## Steps
 
-For example, see a structure of the following two libraries `Foo` and `Bar`:
+1. **Locate the `TFT_eSPI` Library Folder**: Find the directory where the `TFT_eSPI` library is installed on your system. This is usually located in your Arduino libraries folder.
 
-|--lib
-|  |
-|  |--Bar
-|  |  |--docs
-|  |  |--examples
-|  |  |--src
-|  |     |- Bar.c
-|  |     |- Bar.h
-|  |  |- library.json (optional, custom build options, etc) https://docs.platformio.org/page/librarymanager/config.html
-|  |
-|  |--Foo
-|  |  |- Foo.c
-|  |  |- Foo.h
-|  |
-|  |- README --> THIS FILE
-|
-|- platformio.ini
-|--src
-   |- main.c
+2. **Copy Files**: Copy all files from this folder.
 
-and a contents of `src/main.c`:
-```
-#include <Foo.h>
-#include <Bar.h>
+3. **Paste into Library Folder**: Paste the copied files into the `TFT_eSPI` library folder, replacing any existing files if necessary.
 
-int main (void)
-{
-  ...
-}
-
-```
-
-PlatformIO Library Dependency Finder will find automatically dependent
-libraries scanning project source files.
-
-More information about PlatformIO Library Dependency Finder
-- https://docs.platformio.org/page/librarymanager/ldf.html
-
+This ensures that the `TFT_eSPI` library is configured with the latest files and settings.
