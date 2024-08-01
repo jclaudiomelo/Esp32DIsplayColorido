@@ -27,3 +27,7 @@ The `User_Setup.h` file has been modified for the ESP32 as follows:
   - **DC**: GPIO 2 (Data/Command control pin)
   - **RST**: GPIO 4 (Reset pin, can be connected to the processor’s RST pin)
 
+### OBS
+
+check out the [User Setup Guide](lib/).
+the files for overwrite;
